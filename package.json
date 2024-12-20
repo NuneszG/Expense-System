@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx --watch port/server.ts"
+    "dev": "tsx --watch domain/port/server.ts"
   },
   "keywords": [],
   "author": "",
