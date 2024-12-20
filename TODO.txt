@@ -1,0 +1,20 @@
+features
+    - create new expense 
+    - get all expenses
+    - update and delete some expense
+    - get in length
+
+    - create new meta
+    - get all metas
+    - update and delete some meta
+    - get in length
+
+expense model 
+    - name
+    - price
+    - amount
+    - description
+
+meta model  
+    - value
+    - description
