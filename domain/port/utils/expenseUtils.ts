@@ -7,6 +7,11 @@ export interface ExpenseProps {
     description: string
 };
 
+export interface ExpenseDeleteProps {
+    id: string
+
+};
+
 export interface ExpenseUpdateProps {
     id: string
     name: string
