@@ -1,11 +1,11 @@
 
 export interface MetaProps {
-    name: string
+    value: string
     description: string
 };
 
 export interface MetaUpdateProps {
     id: string
-    name: string
+    value: string
     description: string
 };
