@@ -11,7 +11,7 @@ this is an api made to be used in EMS (Expense management System) project. It's 
 - Fastify
 - MongoDB
 
-### How i use it?
+# How I use it?
 
 1. Clone repository
 ```
