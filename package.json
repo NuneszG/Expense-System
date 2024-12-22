@@ -7,7 +7,7 @@
     "dev": "tsx --watch domain/port/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Guilherme Nunes",
   "license": "ISC",
   "description": "",
   "dependencies": {
