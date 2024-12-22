@@ -1,19 +1,19 @@
-# EM API README
-this is an api made to be used in EMS (Expense management System) project. It's a project made to help people to manage and controll their expenses more easily.
+# Expense system API Documentação
+Essa é uma api de sistema de despesas que foi feita para ser usada no projeto __Senun__, que será feito para controlar e gerenciar despesas e metas. O projeto foi desenvolvido com o intuito de ajudar pessoas tanto a gerenciar com mais eficiência e agilidade suas despesas mensais, quanto suas metas para guardar seu dinheiro.
 
-### Features
-- __CRUD Expense__: User can create new expenses, get all expenses, also update and delete some expense he wants.
-- __CRUD Meta__: User also can create new metas to save his cash. Get all metas, update and delete some meta.
+### Funcionalidades
+- __CRUD Expense__: Usuário pode registrar uma nova despesa, obter todas as despesas registradas, também atualizar e deleta-las.
+- __CRUD Meta__: Usuário pode registrar novas metas, obter todas as metas registradas e também atualizar e deletar alguma meta desejada.
 
-### Technologies
+### Tecnologias ultilizadas
 - Typescript 
 - Prisma
 - Fastify
 - MongoDB
 
-# How I use it?
+# Como posso usar?
 
-1. Clone repository
+1. Clone o repositório
 ```
 git clone https://github.com/NuneszG/Expense-management.git
 ```
@@ -23,18 +23,25 @@ git clone https://github.com/NuneszG/Expense-management.git
 npm run dev
 ```
 >[!TIP]
->if you have Make installed in your machine, you can run api with code
+>se você tiver o Make instalado na sua maquina, você pode rodar com o código
 >```
 >make dev
 >```
 
-### Endpoints to each HTTP request
+### Endpoints para cada requisição HTTP de despesas
 - __CREATE Expense__: /auth/expense/create/
 - __READ Expenses__: /auth/expense/get-all/
 - __UPDATE Expense__: /auth/expense/update/
 - __DELETE Expense__: /auth/expense/delete/
 
-### How can i test it?
+### Endpoints para cada requisição HTTP de metas
+- __CREATE Meta__: /auth/meta/create/
+- __READ Metas__: /auth/meta/get-all/
+- __UPDATE Meta__: /auth/meta/update/
+- __DELETE Meta__: /auth/meta/delete/
+
+
+### Onde posso testar?
 - Insomnia
 - Postman
 
