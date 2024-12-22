@@ -9,3 +9,7 @@ export interface MetaUpdateProps {
     value: string
     description: string
 };
+
+export interface MetaDeleteProps {
+    id: string
+};
