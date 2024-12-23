@@ -36,3 +36,12 @@ model Meta {
 
   @@map("metas")
 }
+
+model Desire {
+  id          String    @id @default(auto()) @db.ObjectId @map("_id")
+  name        String
+  price       String
+  amount      String
+
+  @@map("desires")
+}
