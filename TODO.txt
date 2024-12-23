@@ -9,6 +9,10 @@ features
     - update and delete some meta
     - get in length
 
+    - create new desire
+    - get all desires
+    - update and delete some desire
+
 expense model 
     - name
     - price
@@ -18,3 +22,8 @@ expense model
 meta model  
     - value
     - description
+
+desire model
+    - name
+    - amount
+    - price
