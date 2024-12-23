@@ -1,9 +1,10 @@
 # Expense system API Documentação
-Essa é uma api de sistema de despesas que foi feita para ser usada no projeto __Senun__, que será feito para controlar e gerenciar despesas e metas. O projeto foi desenvolvido com o intuito de ajudar pessoas tanto a gerenciar com mais eficiência e agilidade suas despesas mensais, quanto suas metas para guardar seu dinheiro.
+Essa é uma api de sistema de despesas que foi feita para ser usada no projeto __Senun__, que será feito para controlar e gerenciar despesas e metas. O projeto foi desenvolvido com o intuito de ajudar pessoas tanto a gerenciar com mais eficiência e agilidade suas despesas mensais e criar sua lista propria lista de desejos, quanto suas metas para guardar seu dinheiro.
 
 ### Funcionalidades
 - __CRUD Expense__: Usuário pode registrar uma nova despesa, obter todas as despesas registradas, também atualizar e deleta-las.
 - __CRUD Meta__: Usuário pode registrar novas metas, obter todas as metas registradas e também atualizar e deletar alguma meta desejada.
+- __CRUD Desire__: Usuário pode criar sua lista de desejos, obter todos os desejos registrados e também atualizar e deletar algum deles.
 
 ### Tecnologias ultilizadas
 - Typescript 
