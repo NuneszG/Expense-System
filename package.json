@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -p",
+    "app": "nodemon domain/port/server.js",
     "dev": "tsx --watch domain/port/server.ts"
   },
   "keywords": [],
