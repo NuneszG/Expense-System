@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc",
-    "app": "node src/domain/port/server.js",
-    "dev": "tsx --watch src/domain/port/server.ts"
+    "dev": "tsx --watch domain/port/server.ts"
   },
   "keywords": [],
   "author": "Guilherme Nunes",
